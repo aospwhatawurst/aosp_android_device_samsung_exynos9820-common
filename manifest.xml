@@ -635,4 +635,14 @@
         <name>vendor.samsung_slsi.hardware.radio</name>
         <transport>hwbinder</transport>
     </hal>
+    <hal format="hidl">
+        <name>vendor.lineage.powershare</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IPowerShare</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IPowerShare/default</fqname>
+    </hal>
 </manifest>
